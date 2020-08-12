@@ -1,0 +1,17 @@
+{
+  "name": "testashwin",
+  "version": "2.0.1",
+  "description": "Just a test",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "countries-list": "^2.5.5",
+    "intl-tel-input": "^17.0.3",
+    "libphonenumber-js": "^1.7.55",
+    "us-area-codes": "^1.0.0"
+  }
+}
