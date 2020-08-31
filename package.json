@@ -2,7 +2,7 @@
   "name": "testashwin",
   "version": "2.0.1",
   "description": "Just a test",
-  "main": "./lib/index.js",
+  "main": "./index.json",
   "files": [
     "index.json"
   ],
