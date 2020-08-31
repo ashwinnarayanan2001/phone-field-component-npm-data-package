@@ -3,12 +3,17 @@
   "version": "2.0.1",
   "description": "Just a test",
   "main": "./lib/index.js",
+  "files": [
+    "index.json"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node lib/build.js",
+    "prepublish": "npm run build"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "countries-list": "^2.5.5",
     "intl-tel-input": "^17.0.3",
     "libphonenumber-js": "^1.7.55",
